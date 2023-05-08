@@ -5,7 +5,7 @@ const MEMBERS_DATA = [
     age: "26",
     job: "💻 Developer",
     bio: "Sucker for nature and cats",
-    avatar: "images/photo1.jpg",
+    avatar: "images/photo1.jpeg",
   },
 
   {
@@ -14,7 +14,7 @@ const MEMBERS_DATA = [
     age: "29",
     job: "🐶 Nurse",
     bio: "Always keep chasing your dreams... :)",
-    avatar: "images/photo2.jpg",
+    avatar: "images/photo2.jpeg",
   },
 
   {
@@ -23,7 +23,7 @@ const MEMBERS_DATA = [
     age: "31",
     job: "💎 Jeweler",
     bio: "My favorite artist is ginger and sings about the sun",
-    avatar: "images/photo3.jpg",
+    avatar: "images/photo3.jpeg",
   },
 
   {
@@ -32,7 +32,7 @@ const MEMBERS_DATA = [
     age: "23",
     job: "🔩 Software engineer",
     bio: "Everyone can learn anything they want!",
-    avatar: "images/photo4.jpg",
+    avatar: "images/photo4.jpeg",
   },
 
   {
@@ -41,6 +41,10 @@ const MEMBERS_DATA = [
     age: "25",
     job: "❌ Unemployed",
     bio: "I gamble on the daily while my friends are working 9-5..",
-    avatar: "images/photo5.jpg",
+    avatar: "images/photo5.jpeg",
   },
 ];
+
+export function showMembers(){
+    return MEMBERS_DATA;
+}

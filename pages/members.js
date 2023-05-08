@@ -1,8 +1,10 @@
-function Members() {
+import MemberList from '@/components/member-list';
+import MEMBERS_DATA, { showMembers } from './../members-data';
+
+function Members(props) {
+
     return (
-        <div>
-            <h2>Members</h2>
-        </div>
+        <MemberList/>
     );
 }
 
