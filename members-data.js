@@ -40,7 +40,7 @@ const MEMBERS_DATA = [
     name: "Kendrick",
     age: "25",
     job: "❌ Unemployed",
-    bio: "Go hard - Lil Baby",
-    avatar: "images/photo4.jpg",
+    bio: "I gamble on the daily while my friends are working 9-5..",
+    avatar: "images/photo5.jpg",
   },
 ];
